@@ -163,14 +163,6 @@ add_library(engine STATIC ${ENGINE_SRC})
 #set_target_properties(engine PROPERTIES LINKER_LANGUAGE C)
 target_link_libraries(engine     bgfx bgfx_common bgfx3rdParty )
 
-
-# ------------------ OpenAL ------------------
-
-
-# ---------------- libdmusic ----------------
-
-
-
 # ------------------ Other ------------------
 
 include_directories(src)
